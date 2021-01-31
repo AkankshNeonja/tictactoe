@@ -22,6 +22,7 @@ def cell_occupied(coord_x, coord_y):
 
 
 def user_input_correct():
+    """Checks user input is valid"""
     input_to_check = user_input.split()
     if len(input_to_check) != 2 \
             or string.digits.find(input_to_check[0]) == -1 \
